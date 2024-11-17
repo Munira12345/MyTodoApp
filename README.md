@@ -38,6 +38,8 @@ TaskInput: Handles adding new tasks.
 TaskModal: Used for editing tasks.
 ## Screenshots
 Current UI for MyTodoApp 
+![todoUI](https://github.com/user-attachments/assets/cfa2e672-c1bd-46b0-bc66-4dae77062c6f)
+
 
 ## Challenges and Solutions
 Challenge: Handling state and updates for task editing. 
