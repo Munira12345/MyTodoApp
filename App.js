@@ -1,10 +1,10 @@
 import React, { useState, useEffect } from 'react';
 import { SafeAreaView, TextInput, StyleSheet, Text } from 'react-native';
 import AsyncStorage from '@react-native-async-storage/async-storage';
-import TaskList from './components/TaskList';
-import TaskModal from './components/TaskModal';
-import TaskInput from './components/TaskInput';
-import useDebounce from './hooks/useDebounce';
+import TaskList from './src/components/TaskList';
+import TaskModal from './src/components/TaskModal';
+import TaskInput from './src/components/TaskInput';
+import useDebounce from './src/hooks/useDebounce';
 
 const App = () => {
   const [task, setTask] = useState('');
